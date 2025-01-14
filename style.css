@@ -49,10 +49,6 @@ body.light .icon {
     filter: brightness(0%);
 }
 
-.container {
-    width: 32.7rem;
-    max-width: 32.7rem;
-}
 body.light .form, body.light .search::placeholder,
  body.light .profile, body.light .joined, body.light .bio,
  body.light .link {
