@@ -1,3 +1,4 @@
+
 body {
 background: #141D2F;
 display: flex;
@@ -305,45 +306,13 @@ width: 20%;
     order: 2;
 }
 
+.company {
+    order: 4;
+}
+
 .website {
     order: 3;
 }
 
-.company {
-    order: 4;
-}
 }
 
-@media (min-width: 1200px) {
-
-    .profile {
-        padding: 50px;
-    }
-
-    .container {
-        width: 73rem;
-        max-width: 73rem;
-    }
-
-.search {
-    text-align: start;
-    margin-left: -200px;
-    font-size: 1.5rem;
-}
-
-.pic-container {
-    display: flex;
-    flex-flow: column nowrap;   
-    object-fit: cover; 
-    margin-bottom: 150px
-}
-
-.joined {
-    float: right;
-    margin-top: -40px;
-}
-
-.bio {
-    margin-bottom: 25px;
-}
-}
